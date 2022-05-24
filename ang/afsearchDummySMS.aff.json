@@ -1,0 +1,6 @@
+{
+    "type": "search",
+    "title": "Dummy SMS",
+    "server_route": "civicrm/dummysms",
+    "permission": "send SMS"
+}
