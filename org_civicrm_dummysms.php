@@ -75,6 +75,7 @@ class org_civicrm_dummysms extends CRM_SMS_Provider {
       'body' => $message,
       'is_inbound' => FALSE,
     ];
+    \Civi\Api4\DummySmsMessage::create(TRUE)->setValues($record)->execute();
     return TRUE;
   }
 
